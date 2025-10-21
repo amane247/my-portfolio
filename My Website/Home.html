@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Splash Intro — กดเพื่อเข้า</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SPLASH SCREEN -->
+<div id="splash" class="splash" role="button" aria-label="กดเพื่อเข้าสู่เว็บไซต์" tabindex="0">
+  <div class="logo" id="logo">PORT</div>
+  <div class="title">ยินดีต้อนรับสู่พอร์ตโฟลิโอ</div>
+  <div class="hint">แตะ/คลิกที่หน้าจอเพื่อเข้าสู่เว็บไซต์</div>
+  <div class="pulse" aria-hidden="true"></div>
+</div>
+
+<!-- MAIN CONTENT -->
+<main id="app" aria-hidden="true">
+  <nav class="fade-in">
+    <h2 style="font-weight:700">Portfolio of Mr. Natthakit Hiranyathiti</h2>
+    <div class="navi">
+      <a href="#About">About me</a>
+      <a href="#Project">Project</a>
+      <a href="#Contact">Contact</a>
+    </div>
+  </nav>
+  <section class="About fade-in">
+    <h1 id="About">About me</h1>
+    <div class="box">
+      <p class="name">ชื่อ:นายณัฐกิตติ์ หิรัญยัษฐิติ</p>
+      <p class="name">ชื่อเล่น:อาร์ม อายุ: 17ปี</p>
+      <p class="name">สัญชาติ :ไทย ศาสนา:พุทธ</p>
+      <p class="name">แผนการเรียน:คณิต-อังกฤษ</p>
+      <p class="name">ความสามารถพิเศษ: ด้านกีฬา เล่นกีฬาแบดมินตัน</p>
+      <p class="name">วิชาที่ชอบ:คอมพิวเตอร์</p>
+      <p class="name">งานอดิเรก:ฟังเพลง,เขียนโค้ดเกม</p>
+    </div>
+    <img class="arm" src="arm.jpg" alt="img.Me">
+  </section>
+  <h1 id="Project" class="Project">Project</h1>
+  <section class="work-section Cer">
+    <h1>Certificate</h1>
+    <article class="card fade-in" data-link="certificate-detail.html?id=1">
+      <h3>ศิลปหัตถกรรม</h3>
+      <p>การแข่งขันสร้างเกมในระยะเวลาที่จำกัด</p>
+    </article>
+    <article class="card fade-in" data-link="certificate-detail.html?id=2">
+      <h3>Game Jam special 2 </h3>
+      <p>การแข่งขันสร้างเกมด้วยแพลตฟอร์มต่างๆ</p>
+    </article>
+    <article class="card fade-in" data-link="certificate-detail.html?id=3">
+      <h3>แข่งขันการสร้าง Motion Inforgraphic</h3>
+      <p>แข่งสร้างMotion Inforgraphic ตามหัวข้อ</p>
+    </article>
+    <article class="card fade-in" data-link="certificate-detail.html?id=4">
+      <h3>แข่งขันคณิดคิดเร็ว</h3>
+      <p>แข่งขันคณิดคิดเร็วจากตัวเลข4จำนวน</p>
+    </article>
+  </section>
+
+  <section class="work-section Cer">
+    <h1>Activities</h1>
+    <article class="card fade-in" data-link="activity-detail.html?id=1">
+      <h3>สร้างเกม Overseer ใน rolox</h3>
+      <p>สร้างเกมแข่งกัน2ฝั่ง</p>
+    </article>
+    <article class="card fade-in" data-link="activity-detail.html?id=2">
+      <h3>สร้างเกม เกาะร้าง ในroblox</h3>
+      <p>เกมแนวHangout ให้ผู้เล่นมาคุยกัน </p>
+    </article>
+    <article class="card fade-in" data-link="activity-detail.html?id=3">
+      <h3>สร้างเกม Somtam Adventure ในconstruct2</h3>
+      <p>สร้างเกมแนวผจญภัย</p>
+    </article>
+  </section>
+
+  <section class="gallery-slider">
+  <div class="slider">
+    <div class="slides">
+
+      <!-- 🌟 เกม Overseer -->
+      <div class="slide">
+        <img src="overseer1.png" alt="Overseer">
+        <div class="caption">Overseer — เกมแนวแข่งขัน 2 ฝั่ง</div>
+      </div>
+
+      <!-- 🌟 เกม เกาะร้าง -->
+      <div class="slide">
+        <img src="deserted island1.png" alt="เกาะร้าง">
+        <div class="caption">เกาะร้าง — เกม Hangout พูดคุยกับเพื่อน</div>
+      </div>
+
+      <!-- 🌟 เกม Somtam Adventure -->
+      <div class="slide">
+        <img src="somtam.png" alt="Somtam Adventure">
+        <div class="caption">Somtam Adventure — เกมผจญภัย 2D</div>
+      </div>
+
+      <!-- 🏅 Certificate ศิลปหัตถกรรม -->
+      <div class="slide">
+        <img src="art.png" alt="ศิลปหัตถกรรม">
+        <div class="caption">Certificate — ศิลปหัตถกรรม แข่งขันสร้างเกม</div>
+      </div>
+
+      <!-- 🏅 Certificate Game Jam -->
+      <div class="slide">
+        <img src="hamter.png" alt="Game Jam Special 2">
+        <div class="caption">Certificate — Game Jam Special 2</div>
+      </div>
+
+      <!-- 🏅 Certificate Motion Infographic -->
+      <div class="slide">
+        <img src="ภาพใบประกาศsw.jpg" alt="Motion Infographic">
+        <div class="caption">Certificate — Motion Infographic Competition</div>
+      </div>
+
+    </div>
+    <button class="slider-btn prev">&#10094;</button>
+    <button class="slider-btn next">&#10095;</button>
+  </div>
+</section>
+
+  <section class="contact" id="Contact">
+  <h1>Contact</h1>
+  <div class="contact-content">
+    <div class="contact-info">
+      <p>📧 Email: <a href="mailto:hnatthakit@gmail.com" target="_blank">hnatthakit@gmail.com</a></p>
+      <p>📱 Phone: <a href="tel:088-878-2373" target="_blank">088-878-2373</a></p>
+      <p>📍 Location: Bangkok, Thailand</p>
+      <a href="https://www.instagram.com/amane_247/" target="_blank" class="incon"><img src="int.png" alt=""></a>
+      <a href="https://www.facebook.com/aaz.ch.3?locale=th_TH" target="_blank" class="incon"><img src="face.png" alt=""></a>
+      <a href="https://discord.gg/EW6jftfk" target="_blank" class="incon"><img src="dis.png" alt=""></a>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="ชื่อของคุณ" required>
+      <input type="email" placeholder="อีเมล" required>
+      <textarea placeholder="ข้อความของคุณ..." rows="4" required></textarea>
+      <button type="submit">ส่งข้อความ</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
